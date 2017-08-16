@@ -1,0 +1,17 @@
+AC_INIT(hello, 0.1)
+
+AC_CONFIG_HEADERS([config.h])
+AM_INIT_AUTOMAKE
+
+
+AC_CONFIG_MACRO_DIRS([m4])
+AC_CONFIG_SRCDIR([src/main.c])
+
+AC_PROG_CC
+AC_PROG_INSTALL
+
+
+AC_CONFIG_FILES([Makefile src/Makefile])
+AC_OUTPUT
+
+
